@@ -26,7 +26,7 @@ OUT_HITL  = "outputs/hitl_review.csv"
 # --- HITL thresholds: control when human review is triggered ---
 CONF_THRESH = 0.55
 DEADLOCK_MARGIN = 1.0
-DEADLOCK_MIN_MAX_STRENGTH = 7.0   # ✅ avoid 6/6 deadlocks
+DEADLOCK_MIN_MAX_STRENGTH = 7.0
 DEADLOCK_MAX_CONF = 0.60
 DISAGREE_HITL_MAX_CONF = 0.65
 STRENGTH_VOTE_DELTA = 1.0
